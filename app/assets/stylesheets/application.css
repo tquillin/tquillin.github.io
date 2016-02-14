@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+   background-repeat: no-repeat;
+   background-color: rgba(255, 255, 255, 1);
+   font-family: 'Indie Flower', cursive;
+ }
+ .navigation{
+   position: absolute;
+   left: 2%;
+   /*top: 4%;*/
+ }
+ #image-one{
+   position: absolute;
+   top: 25%;
+   left: 20%;
+ }
+ #image-two{
+   position: absolute;
+   top: 20%;
+   left: 43.3%;
+ }
+ #image-three{
+   position: absolute;
+   top: 25%;
+   left: 67.5%;
+ }
+#new-entry{
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
+#alerts{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  border: solid white;
+}
+#results{
+  position: absolute;
+  top: 90%;
+  left: 23%;
+}
+.paragraph{
+  /*background-color: lightgrey;*/
+  width: 49%;
+}
+.counter{
+  position: absolute;
+  top: 79%;
+  left: 20%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: red;
+}
+span{
+  background-color: grey;
+}
+li{
+border: solid white;
+padding: 30px;
+margin: 30px;
+border: solid grey;
+
+}
+#submit:hover{
+  color: green;
+  background-color: bisque;
+}
+#register:hover{
+  color: red;
+  background-color: black;
+}
